@@ -1,0 +1,247 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: "Playfair Display", serif;
+font-size:16px;
+}
+
+
+/* HEADER */
+
+.first_position{
+background-image:url(./image/background.jpg);
+background-color:#09093dd7;
+background-blend-mode:multiply;
+background-size:cover;
+height:100vh;
+position:relative;
+padding-bottom:150px;
+}
+
+.nav-link{
+color:white !important;
+font-size:18px;
+}
+
+.navbar-brand img{
+height:35px;
+}
+
+
+/* HERO TEXT */
+
+.home_section{
+color:white;
+}
+
+.home_section h1{
+font-size:60px;
+font-weight:bold;
+}
+
+.home_section h2{
+font-size:40px;
+
+}
+
+button{
+  background-color:#1515fade;
+border:none;
+padding:10px 25px;
+color:white;
+margin-top:10px;
+border-radius:5px;
+}
+
+
+/* SVG DIVIDER 1 */
+
+.custom-shape-divider-bottom-1771293004{
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+line-height:0;
+transform:rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1771293004 svg{
+width:100%;
+height:150px;
+}
+
+.custom-shape-divider-bottom-1771293004 .shape-fill{
+fill:#09093dc2;
+}
+
+
+/* SECOND SECTION */
+
+.background_section{
+background-image:url(./image/background_2.jpg);
+background-color:#09093dd7;
+background-blend-mode:multiply;
+background-size:cover;
+padding:110px 40px;
+position:relative;
+}
+
+
+/* SVG DIVIDER 2 */
+
+.custom-shape-divider-bottom-1771295264{
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+line-height:0;
+}
+
+.custom-shape-divider-bottom-1771295264 svg{
+width:100%;
+height:150px;
+transform:rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1771295264 .shape-fill{
+fill:#09093db0;
+}
+.image_section{
+    width:100% ;
+    border-radius:20%;
+}
+.bg_division{
+text-align: left;
+ color:white;
+}
+ .video-bg video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    .overlay {
+      background: rgba(15, 8, 46, 0.459);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .hero-content {
+      z-index: 2;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .hero-content h1 {
+      font-size: 5rem;
+      font-weight: 700;
+    }
+
+    .hero-content h2 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      .hero-content h1 {
+        font-size: 3rem;
+      }
+      .hero-content h2 {
+        font-size: 2rem;
+      }
+    }
+    .section_img{ width: 100%;
+        object-fit: cover;
+    }
+    
+.contact-section{
+    background-image: url(./image/backgroundlast.jpg);
+    background-color:#09093d96;
+    background-position: top center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    padding: 100px 40px;
+}
+.contact-form{
+   
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+       /* === FOOTER SECTION === */
+    footer {
+      background-color: #3a519b;
+      color: white;
+      padding: 40px 0 20px;
+    }
+
+    footer h5 {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+      color: #d1d1d1;
+    }
+
+    footer ul li a {
+      text-decoration: none;
+      color: #d1d1d1;
+    }
+
+    footer ul li a:hover {
+      color: white;
+    }
+
+    .footer-logo img {
+      height: 30px;
+      width: auto;
+    }
+
+    .footer-bottom {
+      margin-top: 20px;
+      font-size: 14px;
+      text-align: center;
+      color: #cfcfcf;
+    }
+
+    .social-icons a {
+      color: white;
+      margin: 0 8px;
+      font-size: 18px;
+    }
+    @media (max-width:768px){
+  .my_swimming{
+     line-height: 2rem;
+    
+  }
+  .contact-section{
+    background-image: url(./image/backgroundlast.jpg);
+    background-color:#09093d96;
+    background-position: left center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  
+}
+}
